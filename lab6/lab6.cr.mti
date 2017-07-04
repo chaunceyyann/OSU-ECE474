@@ -1,0 +1,43 @@
+/nfs/stak/students/y/yanc/474/lab6/encoder_handler.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab6/encoder_handler.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module encoder_handler
+
+Top level modules:
+	encoder_handler
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab6/BCD.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab6/BCD.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module BCD
+
+Top level modules:
+	BCD
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab6/input_debouncer.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab6/input_debouncer.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module input_debouncer
+
+Top level modules:
+	input_debouncer
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab6/sseg_display.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab6/sseg_display.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module sseg_display
+
+Top level modules:
+	sseg_display
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab6/sub_clk.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab6/sub_clk.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module sub_clk
+
+Top level modules:
+	sub_clk
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab6/adc_control.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module adc_control
+
+Top level modules:
+	adc_control
+
+} {} {}}

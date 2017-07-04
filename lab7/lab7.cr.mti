@@ -1,0 +1,43 @@
+/nfs/stak/students/y/yanc/474/lab7/uart_ctrl.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab7/uart_ctrl.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module uart_ctrl
+
+Top level modules:
+	uart_ctrl
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab7/adc_ctrl.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab7/adc_ctrl.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module adc_ctrl
+
+Top level modules:
+	adc_ctrl
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab7/BCD.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab7/BCD.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module BCD
+
+Top level modules:
+	BCD
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab7/lab7.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab7/lab7.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module lab7
+
+Top level modules:
+	lab7
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab7/sub_clk.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab7/sub_clk.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module sub_clk
+
+Top level modules:
+	sub_clk
+
+} {} {}} /nfs/stak/students/y/yanc/474/lab7/sseg_display.sv {1 {vlog -work work -vopt -sv -stats=none /nfs/stak/students/y/yanc/474/lab7/sseg_display.sv
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 12 2016
+-- Compiling module sseg_display
+
+Top level modules:
+	sseg_display
+
+} {} {}}

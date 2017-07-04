@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/nfs/stak/students/y/yanc/474/lab1
+T_opt
+!s110 1459831633
+VLNl3Bf]1c[YY5eBAaUY_P0
+04 4 4 work lab1 fast 0
+=1-14feb5d10927-57034351-856c4-7760
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vlab1
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1459831045
+!i10b 1
+!s100 :B[nRTABDI61CZPgiPm4@2
+I6Y6d:oH`I7h9B7;[_Zd482
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 lab1_sv_unit
+S1
+R0
+w1459831011
+8lab1.sv
+Flab1.sv
+L0 1
+OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1459831045.000000
+!s107 lab1.sv|
+!s90 lab1.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

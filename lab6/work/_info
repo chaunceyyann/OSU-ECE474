@@ -1,0 +1,202 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/nfs/stak/students/y/yanc/474/lab6
+T_opt
+!s110 1463619404
+Vb:_F9LX=7@Me<_8XRa=JJ1
+04 4 4 work lab6 fast 0
+=1-74867ae0fdb7-573d0f4b-e9c01-7fa
+o-quiet -auto_acc_if_foreign -work work -L /nfs/stak/students/y/yanc/474/altera_mf
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+vadc_control
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l8ekUUQ7V>B]Gclz6ZXTF2
+I;CH:5lo]nVPPeGf12k8_b3
+!s105 adc_control_sv_unit
+S1
+R0
+w1464236352
+8/nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+F/nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+L0 1
+Z4 OL;L;10.5;63
+!s108 1464237594.000000
+!s107 /nfs/stak/students/y/yanc/474/lab6/adc_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/adc_control.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vBCD
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vf]?IK?QRTaoX[?K:QZV91
+IlkN;1>]RXnQfiE>g7z>C=0
+!s105 BCD_sv_unit
+S1
+R0
+w1463623471
+8/nfs/stak/students/y/yanc/474/lab6/BCD.sv
+F/nfs/stak/students/y/yanc/474/lab6/BCD.sv
+L0 1
+R4
+Z6 !s108 1464237592.000000
+!s107 /nfs/stak/students/y/yanc/474/lab6/BCD.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/BCD.sv|
+!i113 0
+R5
+R1
+n@b@c@d
+vencoder_handler
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4UW7keW=g1OYbOaRQ@zz]0
+I6[Nz60HoRaLl=`?>21_nS2
+!s105 encoder_handler_sv_unit
+S1
+R0
+w1463194156
+8/nfs/stak/students/y/yanc/474/lab6/encoder_handler.sv
+F/nfs/stak/students/y/yanc/474/lab6/encoder_handler.sv
+L0 1
+R4
+R6
+!s107 /nfs/stak/students/y/yanc/474/lab6/encoder_handler.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/encoder_handler.sv|
+!i113 0
+R5
+R1
+vinput_debouncer
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 gF_WmH05oKHl1oYbghGEO0
+IfNa5njW=F3c5LY=0XKb9V0
+!s105 input_debouncer_sv_unit
+S1
+R0
+w1463194253
+8/nfs/stak/students/y/yanc/474/lab6/input_debouncer.sv
+F/nfs/stak/students/y/yanc/474/lab6/input_debouncer.sv
+L0 1
+R4
+Z7 !s108 1464237593.000000
+!s107 /nfs/stak/students/y/yanc/474/lab6/input_debouncer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/input_debouncer.sv|
+!i113 0
+R5
+R1
+vlab6
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 WEFIPk49PA5Ja?;LIK90e2
+IamImQCfFGI7b>Fb^kiG6M1
+!s105 lab6_sv_unit
+S1
+R0
+w1464238037
+8/nfs/stak/students/y/yanc/474/lab6/lab6.sv
+F/nfs/stak/students/y/yanc/474/lab6/lab6.sv
+L0 1
+R4
+!s108 1464238041.000000
+!s107 /nfs/stak/students/y/yanc/474/lab6/lab6.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/lab6.sv|
+!i113 0
+R5
+R1
+vpll
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 zVG7lY?cVfYkU]Nh52`S;3
+I@6h5?FnSYcNIbh:OkA5K]0
+R0
+w1463167501
+8/nfs/stak/students/y/yanc/474/lab6/pll.v
+F/nfs/stak/students/y/yanc/474/lab6/pll.v
+L0 40
+R4
+!s108 1463621093.000000
+!s107 /nfs/stak/students/y/yanc/474/lab6/pll.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/nfs/stak/students/y/yanc/474/lab6/pll.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vsseg_display
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 maRIFoVE9PQaUT7VXDk2B3
+IQ`DcCWGQYM6l:^OWEdnb02
+!s105 sseg_display_sv_unit
+S1
+R0
+w1463194054
+8/nfs/stak/students/y/yanc/474/lab6/sseg_display.sv
+F/nfs/stak/students/y/yanc/474/lab6/sseg_display.sv
+L0 1
+R4
+R7
+!s107 /nfs/stak/students/y/yanc/474/lab6/sseg_display.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/sseg_display.sv|
+!i113 0
+R5
+R1
+vsub_clk
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 QjOIbY=@T8WZc=n2dSC@m0
+IoH@kBk9_HV8nbjWe?[TjL1
+!s105 sub_clk_sv_unit
+S1
+R0
+w1463623402
+8/nfs/stak/students/y/yanc/474/lab6/sub_clk.sv
+F/nfs/stak/students/y/yanc/474/lab6/sub_clk.sv
+L0 1
+R4
+R7
+!s107 /nfs/stak/students/y/yanc/474/lab6/sub_clk.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab6/sub_clk.sv|
+!i113 0
+R5
+R1

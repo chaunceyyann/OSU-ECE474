@@ -1,0 +1,347 @@
+# //  ModelSim SE-64 10.5 Feb 12 2016 Linux 2.6.32-504.23.4.el6.x86_64
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project lab6
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 4 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv failed with 1 errors.
+# 7 compiles, 2 failed with 5 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 4 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv failed with 1 errors.
+# 7 compiles, 2 failed with 5 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 4 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 1 failed with 4 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv was successful.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv was successful.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 20:49:26 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.lab6
+# Loading sv_std.std
+# Loading work.lab6
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sub_clk
+# Loading work.sub_clk
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.input_debouncer
+# Loading work.input_debouncer
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.encoder_handler
+# Loading work.encoder_handler
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.BCD
+# Loading work.BCD
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sseg_display
+# Loading work.sseg_display
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.adc_control
+# Loading work.adc_control
+do init.do
+# ** Error: (vish-4014) No objects found matching '/lab6/adc_state'.
+# Error in macro ./init.do line 5
+# (vish-4014) No objects found matching '/lab6/adc_state'.
+#     while executing
+# "add wave -position end  sim:/lab6/clk"
+do init.do
+# ** Error: invalid command name "//add"
+# Error in macro ./init.do line 5
+# invalid command name "//add"
+#     while executing
+# "//add wave -position end  sim:/lab6/adc_state"
+do init.do
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 6 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 1 failed with 6 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 2 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv was successful.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# End time: 20:59:55 on May 25,2016, Elapsed time: 0:10:29
+# Errors: 6, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 20:59:55 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.lab6
+# Loading sv_std.std
+# Loading work.lab6
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sub_clk
+# Loading work.sub_clk
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.input_debouncer
+# Loading work.input_debouncer
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.encoder_handler
+# Loading work.encoder_handler
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.BCD
+# Loading work.BCD
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sseg_display
+# Loading work.sseg_display
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.adc_control
+# Loading work.adc_control
+do init.do
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# End time: 21:00:23 on May 25,2016, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 21:00:23 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.lab6
+# Loading work.sub_clk
+# Loading work.input_debouncer
+# Loading work.encoder_handler
+# Loading work.BCD
+# Loading work.sseg_display
+# Loading work.adc_control
+do init.do
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# End time: 21:03:23 on May 25,2016, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 21:03:23 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.lab6
+# Loading work.sub_clk
+# Loading work.input_debouncer
+# Loading work.encoder_handler
+# Loading work.BCD
+# Loading work.sseg_display
+# Loading work.adc_control
+do init.do
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# End time: 21:05:12 on May 25,2016, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 21:05:12 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.lab6
+# Loading work.sub_clk
+# Loading work.input_debouncer
+# Loading work.encoder_handler
+# Loading work.BCD
+# Loading work.sseg_display
+# Loading work.adc_control
+do init.do
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 2 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 2 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv failed with 1 errors.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv was successful.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# End time: 21:38:24 on May 25,2016, Elapsed time: 0:33:12
+# Errors: 0, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 21:38:24 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.lab6
+# Loading sv_std.std
+# Loading work.lab6
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sub_clk
+# Loading work.sub_clk
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.input_debouncer
+# Loading work.input_debouncer
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.encoder_handler
+# Loading work.encoder_handler
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.BCD
+# Loading work.BCD
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sseg_display
+# Loading work.sseg_display
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.adc_control
+# Loading work.adc_control
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in lab6 for port 'adc_sclk'.
+#    Time: 0 ns  Iteration: 0  Instance: /lab6/adc_control_0 File: /nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+# ** Warning: (vsim-3017) /nfs/stak/students/y/yanc/474/lab6/lab6.sv(54): [TFMPC] - Too few port connections. Expected 9, found 8.
+#    Time: 0 ns  Iteration: 0  Instance: /lab6/adc_control_0 File: /nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+# ** Warning: (vsim-3722) /nfs/stak/students/y/yanc/474/lab6/lab6.sv(54): [TFMPC] - Missing connection for port 'adc_sclk'.
+# Error loading design
+# End time: 21:38:28 on May 25,2016, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 3
+do init.do
+# ** Error: Unrecognized dataset prefix: sim
+# Error in macro ./init.do line 1
+# Unrecognized dataset prefix: sim
+#     while executing
+# "add wave -position end  sim:/lab6/clk"
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv was successful.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 21:38:58 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.lab6
+# Loading sv_std.std
+# Loading work.lab6
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sub_clk
+# Loading work.sub_clk
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.input_debouncer
+# Loading work.input_debouncer
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.encoder_handler
+# Loading work.encoder_handler
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.BCD
+# Loading work.BCD
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sseg_display
+# Loading work.sseg_display
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.adc_control
+# Loading work.adc_control
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in lab6 for port 'adc_sclk'.
+#    Time: 0 ns  Iteration: 0  Instance: /lab6/adc_control_0 File: /nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+# ** Warning: (vsim-3017) /nfs/stak/students/y/yanc/474/lab6/lab6.sv(54): [TFMPC] - Too few port connections. Expected 9, found 8.
+#    Time: 0 ns  Iteration: 0  Instance: /lab6/adc_control_0 File: /nfs/stak/students/y/yanc/474/lab6/adc_control.sv
+# ** Warning: (vsim-3722) /nfs/stak/students/y/yanc/474/lab6/lab6.sv(54): [TFMPC] - Missing connection for port 'adc_sclk'.
+# Error loading design
+# End time: 21:39:00 on May 25,2016, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 3
+# Compile of BCD.sv was successful.
+# Compile of encoder_handler.sv was successful.
+# Compile of input_debouncer.sv was successful.
+# Compile of lab6.sv was successful.
+# Compile of sseg_display.sv was successful.
+# Compile of sub_clk.sv was successful.
+# Compile of adc_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t ns -novopt 
+# Start time: 21:40:05 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.lab6
+# Loading sv_std.std
+# Loading work.lab6
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sub_clk
+# Loading work.sub_clk
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.input_debouncer
+# Loading work.input_debouncer
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.encoder_handler
+# Loading work.encoder_handler
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.BCD
+# Loading work.BCD
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.sseg_display
+# Loading work.sseg_display
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.adc_control
+# Loading work.adc_control
+do init.do
+# ** Error: Invalid hexadecimal digit: n.
+# ** Error: (vsim-4011) Invalid force value: 1 0, 20ns {400 ns}.
+# Error in macro ./init.do line 9
+# Invalid hexadecimal digit: n.
+# ** Error: (vsim-4011) Invalid force value: 1 0, 20ns {400 ns}.
+# 
+#     while executing
+# "force -freeze sim:/lab6/adc_Dout 1 0, 20ns {400 ns} -r 800ns"
+force -freeze sim:/lab6/adc_Dout 1 20, 0 {420 ns} -r 800
+force -freeze sim:/lab6/adc_Dout 1 2, 0 {402 ns} -r 800
+do re.do
+# End time: 21:41:56 on May 25,2016, Elapsed time: 0:01:51
+# Errors: 2, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t 10ns -novopt 
+# Start time: 21:41:56 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.lab6
+# Loading work.sub_clk
+# Loading work.input_debouncer
+# Loading work.encoder_handler
+# Loading work.BCD
+# Loading work.sseg_display
+# Loading work.adc_control
+do re.do
+# Compile of lab6.sv was successful.
+# End time: 21:47:23 on May 25,2016, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 1
+# vsim -L /nfs/stak/students/y/yanc/474/altera_mf work.lab6 -t 10ns -novopt 
+# Start time: 21:47:23 on May 25,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /nfs/stak/students/y/yanc/474/lab6/work.lab6
+# Loading sv_std.std
+# Loading work.lab6
+# Loading work.sub_clk
+# Loading work.input_debouncer
+# Loading work.encoder_handler
+# Loading work.BCD
+# Loading work.sseg_display
+# Loading work.adc_control

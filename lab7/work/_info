@@ -1,0 +1,149 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/nfs/stak/students/y/yanc/474/lab6
+vadc_ctrl
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 F9aJWzK6^@I@E2A5[`YKo1
+IL_KY4WYnSYNU@12SjEjS90
+!s105 adc_ctrl_sv_unit
+S1
+Z2 d/nfs/stak/students/y/yanc/474/lab7
+w1464810673
+8/nfs/stak/students/y/yanc/474/lab7/adc_ctrl.sv
+F/nfs/stak/students/y/yanc/474/lab7/adc_ctrl.sv
+L0 1
+Z3 OL;L;10.5;63
+Z4 !s108 1464838411.000000
+!s107 /nfs/stak/students/y/yanc/474/lab7/adc_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab7/adc_ctrl.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vBCD
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 g3Il5TN1d]Ch@EO?WzYkY2
+I23gYKO[`ZhHkDZ>bm1=D13
+!s105 BCD_sv_unit
+S1
+R2
+w1464412074
+8/nfs/stak/students/y/yanc/474/lab7/BCD.sv
+F/nfs/stak/students/y/yanc/474/lab7/BCD.sv
+L0 1
+R3
+R4
+!s107 /nfs/stak/students/y/yanc/474/lab7/BCD.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab7/BCD.sv|
+!i113 0
+R5
+R6
+n@b@c@d
+vlab7
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mYoNG6`Cn^:1am:Bk3RDD2
+I0K;1XDHK0JPMi9_SVS@Az1
+!s105 lab7_sv_unit
+S1
+R2
+w1464841156
+8/nfs/stak/students/y/yanc/474/lab7/lab7.sv
+F/nfs/stak/students/y/yanc/474/lab7/lab7.sv
+L0 1
+R3
+!s108 1464841159.000000
+!s107 /nfs/stak/students/y/yanc/474/lab7/lab7.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab7/lab7.sv|
+!i113 0
+R5
+R6
+vsseg_display
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VHcDh98HJ9=loBQ::mhOe3
+I]E]bLY^B]cZ?M_leJjMJo2
+!s105 sseg_display_sv_unit
+S1
+R2
+w1464411692
+8/nfs/stak/students/y/yanc/474/lab7/sseg_display.sv
+F/nfs/stak/students/y/yanc/474/lab7/sseg_display.sv
+L0 1
+R3
+!s108 1464838410.000000
+!s107 /nfs/stak/students/y/yanc/474/lab7/sseg_display.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab7/sseg_display.sv|
+!i113 0
+R5
+R6
+vsub_clk
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ni0VWMTo40kjlBQIO?eIm0
+ICT2[67ejd>m>o4TH8CL0T3
+!s105 sub_clk_sv_unit
+S1
+R2
+w1464842058
+8/nfs/stak/students/y/yanc/474/lab7/sub_clk.sv
+F/nfs/stak/students/y/yanc/474/lab7/sub_clk.sv
+L0 1
+R3
+Z7 !s108 1467146968.000000
+!s107 /nfs/stak/students/y/yanc/474/lab7/sub_clk.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab7/sub_clk.sv|
+!i113 0
+R5
+R6
+vuart_ctrl
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <7j@:XcdXa04DE]1AdZ=53
+IUBT9DN4`Ye>:dk4W0cm4S3
+!s105 uart_ctrl_sv_unit
+S1
+R2
+w1464854725
+8/nfs/stak/students/y/yanc/474/lab7/uart_ctrl.sv
+F/nfs/stak/students/y/yanc/474/lab7/uart_ctrl.sv
+L0 1
+R3
+R7
+!s107 /nfs/stak/students/y/yanc/474/lab7/uart_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/nfs/stak/students/y/yanc/474/lab7/uart_ctrl.sv|
+!i113 0
+R5
+R6
