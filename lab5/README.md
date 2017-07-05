@@ -1,5 +1,5 @@
-ECE 474 Homework 5
-GCD engine - Designing with simple data and a mealy state machine
+# ECE 474 Homework 5
+### GCD engine - Designing with simple data and a mealy state machine
 
 Your task for this homework is to implement Euclid's greatest common 
 divisor (GCD) algorithm in synthesizble system verilog.
@@ -12,9 +12,9 @@ signal that is synchronous to the clock.
 
 Work to do:
 
-1) Code your GCD engine using the module template shown below: It MUST be defined at 
+1. Code your GCD engine using the module template shown below: It MUST be defined at 
 its top level and named as shown below:
-
+```verilog
 module gcd( input [31:0] a_in,          //operand a
             input [31:0] b_in,          //operand b
             input start,                //validates the input data
@@ -22,8 +22,8 @@ module gcd( input [31:0] a_in,          //operand a
             input clk,                  //clock
             output reg [31:0] result,  //output of GCD engine
             output reg done);          //validates output value
-
-2) Test your gcd module using the supplied testbench to insure answers.  A 
+```
+2. Test your gcd module using the supplied testbench to insure answers.  A 
    testbench that you can use to test the functionality will be
    posted for your aid in debugging.
 
@@ -36,3 +36,8 @@ What to turn in:
 Grading
   -Correct operation of gcd                   -90%
   -Code cleanliness, coding efficiency, style -10%
+
+## RTL schematic created by Chauncey Yan with DigiKey Schemit
+
+![](lab5-1.png)
+![](lab5-2.png)

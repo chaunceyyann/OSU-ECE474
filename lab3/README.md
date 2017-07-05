@@ -29,16 +29,18 @@ Work to do:
 ```
 
   Declare all the opcodes in the module as follows.  
+```verilog
   parameter c_add = 4'h1;
   parameter c_sub = 4'h2;
   parameter c_inc = 4'h3;
   parameter declaration for an opcode...
   parameter declaration for an opcode...
   ...
-
+```
   Note the use of the prefix "c_" to mark the identifier as a constant.
   The opcodes for the ALU are as follows:  
-   c_add        in_a + in_b
+```verilog
+  c_add        in_a + in_b
    c_sub        in_a - in_b 
    c_inc        in_a + 1
    c_dec        in_a - 1
@@ -49,6 +51,7 @@ Work to do:
    c_shl        in_a is shifted one place left, zero shifted in
    c_onescomp   in_a gets "ones complemented"
    c_twoscomp   in_a gets "twos complemented"
+```
    The value of carry is as follows: 
    -arithmetic operation      : includes: c_add, c_sub, c_inc, c_dec, c_twoscomp
                               : set if operation results in a carry to the 9th bit
@@ -99,5 +102,6 @@ Grading
   -waveform printout                      10%
   -Written answers (part 4, a-e)          20%
 
+## RTL schematic created by Chauncey Yan with DigiKey Schemit
 
 ![](lab3-1.png)

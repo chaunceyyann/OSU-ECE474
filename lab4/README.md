@@ -1,5 +1,5 @@
-ECE 474 Homework 4
-FIFO design - Designing with simple data and control paths
+# ECE 474 Homework 4
+### FIFO design - Designing with simple data and control paths
 
 Your task for this homework is to implement a 8-bit wide, 8 byte deep
 first-in, first-out memory (FIFO). It must exhibit fall-through behavior
@@ -19,9 +19,9 @@ synchronized by wr_clk.
 
 Work to do:
 
-1) Code your FIFO using the module template shown below: It MUST be defined at 
+1. Code your FIFO using the module template shown below: It MUST be defined at 
 its top level and named as shown below:
-
+```verilog
 module fifo ( 
        input            wr_clk,   //write clock
        input            rd_clk,   //read clock
@@ -32,8 +32,9 @@ module fifo (
        output reg [7:0] data_out, //data out
        output           empty,    //empty flag
        output           full      //full flag
-
-2) Test your fifo using the supplied testbench to insure correct behavior.  A 
+endmodule
+```
+2. Test your fifo using the supplied testbench to insure correct behavior.  A 
    testbench that you can use to test the functionality for your FIFO will be
    posted for your aid in debugging.
 
@@ -45,3 +46,8 @@ What to turn in:
 Grading
   -Correct operation of your FIFO             -90%
   -Code cleanliness, coding efficiency, style -10%
+
+## RTL schematic created by Chauncey Yan with DigiKey Schemit
+
+![](lab4-1.png)
+![](lab4-2.png)

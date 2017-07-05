@@ -129,4 +129,6 @@ invoking like this:
 dc_shell-xg-t -f <synthesis TCL file>
 ```
 
+## RTL schematic created by Chauncey Yan with draw.io
+
 ![](lab2draw.jpg)
