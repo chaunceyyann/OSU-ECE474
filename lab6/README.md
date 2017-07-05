@@ -79,5 +79,5 @@ The maximum number of gates is 1000.
 
 ## RTL schematic created by Chauncey Yan with DigiKey Schemit
 
-![](lab6-1.png)
-![](lab6-2.png)
+![](lab6-1.jpg)
+![](lab6-2.jpg)
