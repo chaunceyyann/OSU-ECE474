@@ -1,5 +1,5 @@
-#ECE 474 Homework 3
-###Verilog combinatorial circuits
+# ECE 474 Homework 3
+### Verilog combinatorial circuits
 
 --Background--
 We are learning about many of the synthesizable Verilog constructs for creating 
@@ -11,12 +11,12 @@ inputs, an 8-bit output, plus outputs for a zero indication and carry. The opcod
 will be supplied by one 4-bit bus.
 
 Work to do:
-1) Create a hw3 working directory. Remember to copy .synopsys_dc.setup into it. 
+1. Create a hw3 working directory. Remember to copy .synopsys_dc.setup into it. 
    Create a work directory.
    Make a rtl_src directory where your alu.sv source file will be placed.
 
-2) Create the ALU with the filename alu.sv.  The module _must_ look as follows:
-
+2. Create the ALU with the filename alu.sv.  The module _must_ look as follows:
+```verilog
   module alu(
       input        [7:0] in_a     ,  //input a
       input        [7:0] in_b     ,  //input b
@@ -26,19 +26,18 @@ Work to do:
       output  reg        alu_carry   //indicates a carry out from ALU 
       );
   endmodule
+```
 
   Declare all the opcodes in the module as follows.  
-
   parameter c_add = 4'h1;
   parameter c_sub = 4'h2;
   parameter c_inc = 4'h3;
   parameter declaration for an opcode...
   parameter declaration for an opcode...
   ...
-  
+
   Note the use of the prefix "c_" to mark the identifier as a constant.
   The opcodes for the ALU are as follows:  
-
    c_add        in_a + in_b
    c_sub        in_a - in_b 
    c_inc        in_a + 1
@@ -50,7 +49,6 @@ Work to do:
    c_shl        in_a is shifted one place left, zero shifted in
    c_onescomp   in_a gets "ones complemented"
    c_twoscomp   in_a gets "twos complemented"
-
    The value of carry is as follows: 
    -arithmetic operation      : includes: c_add, c_sub, c_inc, c_dec, c_twoscomp
                               : set if operation results in a carry to the 9th bit
@@ -59,7 +57,7 @@ Work to do:
    
    The signal alu_zero should propagate X if alu_out has any bits that are X. 
 
-3) Compile alu.sv and simulate it to determine it works correctly by creating a 
+3. Compile alu.sv and simulate it to determine it works correctly by creating a 
    input stimulus do file by hand.
 
    The stimulus file should apply the operands and opcodes to test your alu. Both
@@ -68,7 +66,7 @@ Work to do:
    Run a RTL simulation that shows correct operation. Print the waveform from vsim using 
    hex format for signals.  
 
-4) Now synthesize the RTL and produce the gate level design. 
+4. Now synthesize the RTL and produce the gate level design. 
       Determine the following and put your answers on a separate sheet:
       a. Find the total area used by the alu. (report_area command)
       b. How many different types of cells (gates) were utilized : (report_hierarchy command)
@@ -101,3 +99,5 @@ Grading
   -waveform printout                      10%
   -Written answers (part 4, a-e)          20%
 
+
+![](lab3-1.png)

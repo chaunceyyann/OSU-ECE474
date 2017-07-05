@@ -1,4 +1,4 @@
-#ECE474 Homework 2
+# ECE474 Homework 2
 
 We have seen the design of mutiplier in class. 
 In this assignment, you will.....
@@ -128,3 +128,5 @@ invoking like this:
 ```
 dc_shell-xg-t -f <synthesis TCL file>
 ```
+
+![](lab2draw.jpg)
