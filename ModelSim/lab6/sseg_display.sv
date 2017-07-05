@@ -1,13 +1,16 @@
 module sseg_display(
-  input              clk_8xbud,
-  input                    rst,
-  input        [15:0]      bcd,
-  input        [13:0]      num,
-  output logic [2:0]      sel3, // 3 select on encoder
-  output logic [7:0]      sseg  // 8 7 segments + DP
+  input            clk_10k,
+  input                rst,
+  input    [3:0] thousands,
+  input    [3:0]  hundreds,
+  input    [3:0]      tens,
+  input    [3:0]      ones,
+  input    [13:0]      num,
+  output reg [2:0]    sel3, // 3 select on encoder
+  output reg [7:0]    sseg  // 8 7 segments + DP
   );
   
-  logic        [1:0]      sel2; // 2bit select for display
+  logic [1:0]  sel2; // 2bit select for display
 
   int dec_to_7seg[0:17] = '{
   8'b11000000, 8'b11111001, 8'b10100100, 8'b10110000,  // 0 1 2 3
@@ -19,7 +22,7 @@ module sseg_display(
   /*********************************************
   * 4 digits scan over; sel2++
   *********************************************/
-  always_ff @(posedge clk_8xbud, negedge rst)
+  always_ff @(posedge clk_10k, negedge rst)
   if (!rst)
     sel2 <= 2'b00;
   else 
@@ -30,10 +33,16 @@ module sseg_display(
   *********************************************/
   always_comb
   case (sel2)
-    2'b00 : sel3 <= 3'b000;
-    2'b01 : sel3 <= 3'b001;
-    2'b10 : sel3 <= 3'b011;
-    2'b11 : sel3 <= 3'b100;
+    2'b00 :            sel3 <= 3'b000;
+    2'b01 : 
+      if (num>4'd9)    sel3 <= 3'b001;
+      else             sel3 <= 3'b111;
+    2'b10 : 
+      if (num>7'd99)   sel3 <= 3'b011;
+      else             sel3 <= 3'b111;
+    2'b11 :
+      if (num>10'd999) sel3 <= 3'b100;
+      else             sel3 <= 3'b111;
   endcase
 
   /*********************************************
@@ -41,9 +50,9 @@ module sseg_display(
   *********************************************/
   always_comb
   case (sel2)
-    2'b00 : sseg <= dec_to_7seg[bcd[3:0]];
-    2'b01 : sseg <= dec_to_7seg[bcd[7:4]];
-    2'b10 : sseg <= dec_to_7seg[bcd[11:8]];
-    2'b11 : sseg <= dec_to_7seg[bcd[15:12]]^8'h80;
+    2'b00 : sseg <= dec_to_7seg[ones];
+    2'b01 : sseg <= dec_to_7seg[tens];
+    2'b10 : sseg <= dec_to_7seg[hundreds];
+    2'b11 : sseg <= dec_to_7seg[thousands];
   endcase
 endmodule 

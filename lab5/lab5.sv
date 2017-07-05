@@ -1,47 +1,54 @@
 module lab5(
-  input                clk, // 1 led refrash
-  input                rst, // 1 reset key0
-  input      [7:0]     btn, // 8 buttons
-  input      [3:0] encoder, // 4 2 encoders input
-  output reg [7:0]     led, // 8 onboard leds
-  output reg [7:0]    sseg, // 8 7 segments + DP
-  output reg [2:0]    sel3, // 3 select on encoder
-  output reg           pwm, // 1 total bright control
-  output reg            en, // 1 en
-  output reg          en_n, // 1 en_n
-  output reg        en_gnd  // 1 gnd for encoder
+  input                  clk, // 1 led refrash
+  input                  btn, // 8 buttons
+  input                  rst, // 1 reset key0
+  input        [1:0] encoder, // 4 2 encoders input
+  output logic [7:0]    sseg, // 8 7 segments + DP
+  output logic [2:0]    sel3, // 3 select on encoder
+  output logic [7:0]  data_o, // 8 wave output
+  output logic [7:0]     led,
+  output logic           pwm, // 1 total bright control
+  output logic            en, // 1 en
+  output logic          en_n, // 1 en_n
+  output logic        en_gnd, // 1 gnd for encoder
+  output logic       btn_gnd  // 1 gnd for btn
 );
 
-  assign en      =    1'b1; // enable and enable bar
-  assign en_n    =    1'b0; // enable and enable bar
-  assign en_gnd  =    1'b0; // enable and enable bar
+  assign en      =    1'b1; // enable
+  assign en_n    =    1'b0; // enable bar
+  assign en_gnd  =    1'b0; // encoder gnd
+  assign btn_gnd =    1'b0; // btn gnd
+  assign pwm     =    1'b0; // pwm
   
-  logic            clk_10k; 
-  logic             clk_1m; 
-  logic [15:0]        cntr; // number to count
-  logic [3:0]     pwm_duty; // 16 pwm duty levels
-  logic [15:0]    pwm_cntr; // pwm 2s counter
-  logic [7:0] pwm_clk_cntr; // pwm clk create counter
-  logic [7:0]        d_btn; // debounced btn
-  logic [3:0]    d_encoder; // debounced encoder
+  logic            clk_ROM;
+  logic            clk_10k;
+  logic             clk_1m;
+  logic [13:0]        cntr; // number to count
+  logic              d_btn; // debounced btn
+  logic [3:0]    thousands;
+  logic [3:0]     hundreds;
+  logic [3:0]         tens;
+  logic [3:0]         ones;
   
-//  pll   pll_inst (
-//    .inclk0        ( clk ),
-//    .c0        ( clk_10k ),
-//    .c1         ( clk_1m )
-//  );
+  pll   pll_inst (
+    .inclk0 ( clk ),
+    .c0 ( clk_10k ),
+    .c1 ( clk_1m  ),
+	 .c2 ( clk_ROM )
+    );
 
-  sub_clk sub_clk_0(.*); 
   sseg_display sseg_display_0(.*);
-  pwm_create pwm_create_0(.*);
   input_debouncer input_debouncer_0(.*);
   encoder_handler encoder_handler_0(.*);
-
+  sine_ROM sine_ROM_0(.*);
+  BCD BCD_0(.*);
+  
+  /*********************************************
+  * turn on and cycle musics. 
+  *********************************************/
+  
   /*********************************************
   * testing features 
   *********************************************/
-  assign led[3:0] = pwm_duty;
-  assign led[7]   = pwm;
+ 
 endmodule 
-
-

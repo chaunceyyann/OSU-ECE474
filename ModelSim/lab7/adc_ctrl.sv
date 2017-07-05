@@ -31,9 +31,9 @@ module adc_ctrl(
     adc_Din <= 0;
   else
     case (adc_state)
-    4'd1    : adc_Din <= adc_ch_s[2];
-    4'd2    : adc_Din <= adc_ch_s[1];
-    4'd3    : adc_Din <= adc_ch_s[0]; 
+    4'd2    : adc_Din <= adc_ch_s[2];
+    4'd3    : adc_Din <= adc_ch_s[1];
+    4'd4    : adc_Din <= adc_ch_s[0]; 
     default : adc_Din <= 0;
     endcase
 

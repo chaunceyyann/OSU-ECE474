@@ -1,5 +1,5 @@
 module sseg_display(
-  input              clk_8xbud,
+  input                clk_10k,
   input                    rst,
   input        [15:0]      bcd,
   input        [13:0]      num,
@@ -19,7 +19,7 @@ module sseg_display(
   /*********************************************
   * 4 digits scan over; sel2++
   *********************************************/
-  always_ff @(posedge clk_8xbud, negedge rst)
+  always_ff @(posedge clk_10k, negedge rst)
   if (!rst)
     sel2 <= 2'b00;
   else 
